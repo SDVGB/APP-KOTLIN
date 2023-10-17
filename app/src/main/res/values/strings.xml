@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">TRABAJOU2_VENTAS</string>
+    <string name="ingresar_ventas">Ingresar ventas</string>
+    <string name="control_de_ventas">Control de Ventas</string>
+    <string name="ventas">Ventas</string>
+    <string name="tod">TODO</string>
+    <string name="todo">TODO</string>
+    <string name="linea">linea</string>
+    <string name="ingreso_de_datos">INGRESO DE DATOS</string>
+</resources>

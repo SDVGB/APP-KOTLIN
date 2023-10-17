@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/linea2"
+        android:layout_width="430dp"
+        android:layout_height="91dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="581dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.947"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.122"
+        app:srcCompat="@drawable/captura"
+        android:contentDescription="@string/todo" />
+
+    <Button
+        android:id="@+id/button_Ingresar_ventas"
+        android:layout_width="163dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="267dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="387dp"
+        android:text="@string/ingresar_ventas"
+        app:backgroundTint="#2196F3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <Button
+        android:id="@+id/button_Ver_ventas"
+        android:layout_width="163dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="401dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="253dp"
+        android:text="@string/ventas"
+        app:backgroundTint="#F44336"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="TextContrastCheck" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="360dp"
+        android:layout_height="213dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="486dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/descarga"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/ControldeVentas"
+        android:layout_width="413dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginBottom="581dp"
+        android:background="#F44336"
+        android:gravity="center"
+        android:text="@string/control_de_ventas"
+        android:textColor="#FBF9F9"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="426dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="111dp"
+        android:layout_marginBottom="480dp"
+        android:contentDescription="@string/linea"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.527"
+        app:srcCompat="@drawable/captura" />
+</androidx.constraintlayout.widget.ConstraintLayout>
